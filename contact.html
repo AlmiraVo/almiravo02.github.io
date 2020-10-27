@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+
+<body>
+     <div id="wrapper">
+        <section> 
+            <div id="header">
+                <div id="logo">
+                    <a href="index.html"><img src="Image/Logo Rin.png" alt=""></a>
+                </div>
+                <div id="nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">About me</a></li>
+                            <li><a href="">Diary</a>
+                                <ul class="submenu">
+                                <li><a href="">Journey</a></li>
+                                <li><a href="">Taste</a></li>
+                                <li><a href="">Soul</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Chill</a></li>
+                            <li><a href="shop.html">Shop</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div id="header-content">
+			    <img src="Image/contact.jpg" alt="">
+                <div id="text">
+                    <div class="t one">share</div>
+                    <div class="t2">YOUR</div>
+                    <div class="t two">thoughts</div>
+                </div>
+		    </div>
+            <div id="form" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                <p id="title">Contact me</p>
+                <form action="/action_page.php">
+                    <label for="fname">How can I call you?</label><br>
+                    <input type="text" id="fname" name="fname" value="" style="width: 195px; height:20px; border-radius: 5px;"><br>
+                    <label for="email">Your Email, please</label><br>
+                    <input type="email" id="email" name="email" value="" style="width: 195px; height:20px; border-radius: 5px;"><br>
+                    <p>Say something with me now!</p>
+                    <textarea name="thoughts" rows="10" cols="30" style="border-radius: 5px;"></textarea>
+                    <br><br>
+                    <button type="submit">Send your words</button>
+              </form>     
+            </div>
+        </section>
+    </div>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
